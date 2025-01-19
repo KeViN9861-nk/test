@@ -21,6 +21,9 @@ void Setup() {
 	fruitX = rand() % width;
 	fruitY = rand() % height;
 	score = 0;
+	printf("Press 'a' to move left, 'd' to move right, 'w' to move up, 's' to move down, 'x' to quit the game\n");
+	
+
 }
 
 void Draw() {
